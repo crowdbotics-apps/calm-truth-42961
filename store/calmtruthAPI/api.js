@@ -1,6 +1,6 @@
 import axios from "axios"
 const calmtruthAPI = axios.create({
-  baseURL: "https://pulse-42961.botics.co",
+  baseURL: "https://test-42961.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
